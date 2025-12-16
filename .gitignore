@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Database (if using SQLite locally)
+*.db
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# pycache in subfolders
+**/__pycache__/
+
+
+# Ignore pip cache (optional)
+pip-log.txt
