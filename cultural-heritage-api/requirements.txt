@@ -1,22 +1,9 @@
-# FastAPI and web framework
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
-
-# Database and ORM
+uvicorn==0.24.0
 sqlalchemy==2.0.23
-
-# Authentication and security
-python-jose[cryptography]==3.3.0
+python-jose==3.3.0
 passlib[bcrypt]==1.7.4
 python-multipart==0.0.6
-
-# Data validation
-pydantic==2.5.0
-pydantic[email]==2.5.0
+pydantic==1.10.12
 email-validator==2.1.0
-
-# CORS support
-python-multipart==0.0.6
-
-# Environment variables (optional, for production)
 python-dotenv==1.0.0
